@@ -49,6 +49,7 @@ Results recorded on 2026-10-27 on Windows 11, Node 22.14.0. The browser suite ra
 | `npm run build` | **Pass**. Vite warns about chunk size (mostly three.js) |
 | E2E, GPU | **Pass**: 21/21 in 2.3 minutes |
 | E2E, software (SwiftShader) | **Pass**: 4/4 @smoke tests in 2.1 minutes |
+| Live site (2026-10-27) | **Pass**: https://skeletal-anatomy-lab.vercel.app returns the page; `models/skeleton.glb` is served with its recorded sha256 (`760829effac2…`); Anatomy, the walking pose, Bone tissue, Fractures, Through life, the tour and a close-up open in Chrome with no console errors at 60–61 fps (ready in 10.6 s once the model was cached; the very first download took longer on a slow connection) |
 | GPU check (Chrome, AMD Radeon, D3D11) | Every view renders with no console errors: Anatomy, the walking, squat and fist poses, Bone tissue, Fractures, Through life, X-ray and all six close-ups at 60–61 fps; ready in about 7–11 s |
 
 ## Defects found and fixed during QA
