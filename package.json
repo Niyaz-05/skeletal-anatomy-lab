@@ -1,0 +1,45 @@
+{
+  "name": "skeletal-anatomy-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive 3D human skeleton: bones and their features, joints and movement, bone tissue and bone mass, fractures and healing, growth and the sexes compared.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "validate:assets": "node tools/validate-assets.mjs",
+    "bake:shading": "node tools/bake-shading.mjs",
+    "structures": "node tools/make-structures.mjs",
+    "extract": "node tools/extract-skeleton.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.186.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "meshoptimizer": "^1.3.0",
+    "three-mesh-bvh": "^0.9.16",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}

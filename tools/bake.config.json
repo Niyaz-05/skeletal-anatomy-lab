@@ -1,0 +1,19 @@
+{
+ "$comment": "Shading bake for the real-tissue look (tools/bake-shading.mjs). occluders: which layers can shade each layer. Each layer shades only itself and the parts that never move apart from it (discs with vertebrae, teeth with the skull, knee ligaments with the leg), so posing never leaves shadows where a bone used to be.",
+ "provenance": "src/lab/generated/provenance.json",
+ "aoDistance": 0.01,
+ "rays": 48,
+ "rayOffset": 0.00025,
+ "noiseFrequency": 260,
+ "models": [
+  {
+   "body": "skeleton",
+   "model": "public/models/skeleton.glb",
+   "occluders": {
+    "skull": ["skull", "teeth"], "teeth": ["teeth", "skull"], "cartilage": ["cartilage"], "spine": ["spine", "discs"], "discs": ["discs", "spine"],
+    "thorax": ["thorax"], "girdle": ["girdle"], "arm": ["arm"], "hand": ["hand"], "pelvis": ["pelvis"], "leg": ["leg", "ligaments"], "foot": ["foot"],
+    "ligaments": ["ligaments", "leg"], "female-pelvis": ["female-pelvis"]
+   }
+  }
+ ]
+}

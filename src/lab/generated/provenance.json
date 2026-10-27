@@ -1,0 +1,3082 @@
+{
+ "outputs": {
+  "skeleton": {
+   "file": "public/models/skeleton.glb",
+   "bytes": 9249652,
+   "sha256": "760829effac22f757110fff4f70938db82106c5c643cab9f550c4f242a7ee1a9",
+   "triangles": 449043,
+   "sourceTriangles": 365449,
+   "maxErrorPct": 0.399948
+  }
+ },
+ "sources": {
+  "bodyparts3d": {
+   "name": "BodyParts3D 4.0 (Database Center for Life Science), via the Human Atlas build",
+   "license": "CC-BY-4.0",
+   "intermediate": "github.com/Niyaz-05/human-atlas, commit 76f069640f2c3dd40a58d1556896ac25008f592e",
+   "atlasJsonSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+   "chunkSha256": {
+    "body-13.bin": "4c51b6be85d5b705d2b52b79b9ad1cdae0b65ad03c9402a2f2673c7633fd94f3",
+    "body-12.bin": "61a6c8da89bb20df50c575964ac81aa4090eabfc2cb27ad2155aea325f31c6c0",
+    "body-11.bin": "e8c1afe7f30fe710ad164ec9cd2287a32881606e7eb590af47d76b3f84405027",
+    "body-0.bin": "b33b2b5aac20f35fbf6871f916607bf3c4d386321c8c0fdadcca6b5d24e3641e",
+    "body-1.bin": "aa077a4675f0d0dd3c9b0af39dc8cf6bcb348c3bf7d283478d4206ce30a5a0de",
+    "body-3.bin": "6febb76b50423331f66802a63bb43f04f99ce08129837015910eed43d0719268",
+    "body-8.bin": "18beacfdeadc8ad483d692672aae165f4323704cd7a9bfcbebbd703f5e268e25",
+    "body-9.bin": "0aa8aa09a379a2d759872659a2ef68fc4510ee37e435c4ebc63ee679722a4547",
+    "body-10.bin": "4a959d998acd35cf88518a0f2f8ab99b42d9f69c7ce0d6a814df315eeac807ac"
+   },
+   "parts": {
+    "gingiva-upper": [
+     "FJ1252 Gingiva of upper jaw"
+    ],
+    "gingiva-lower": [
+     "FJ1253 Gingiva of lower jaw"
+    ],
+    "tooth-lower-molar-1-left": [
+     "FJ1254 Left lower first secondary molar tooth"
+    ],
+    "tooth-lower-premolar-1-left": [
+     "FJ1255 Left lower first secondary premolar tooth"
+    ],
+    "tooth-lower-molar-2-left": [
+     "FJ1256 Left lower second secondary molar tooth"
+    ],
+    "tooth-lower-premolar-2-left": [
+     "FJ1257 Left lower second secondary premolar tooth"
+    ],
+    "tooth-lower-central-incisor-left": [
+     "FJ1258 Left lower central secondary incisor tooth"
+    ],
+    "tooth-lower-lateral-incisor-left": [
+     "FJ1259 Left lower lateral secondary incisor tooth"
+    ],
+    "tooth-lower-canine-left": [
+     "FJ1260 Left lower secondary canine tooth"
+    ],
+    "tooth-upper-molar-1-left": [
+     "FJ1261 Left upper first secondary molar tooth"
+    ],
+    "tooth-upper-premolar-1-left": [
+     "FJ1262 Left upper first secondary premolar tooth"
+    ],
+    "tooth-upper-molar-2-left": [
+     "FJ1263 Left upper second secondary molar tooth"
+    ],
+    "tooth-upper-premolar-2-left": [
+     "FJ1264 Left upper second secondary premolar tooth"
+    ],
+    "tooth-upper-central-incisor-left": [
+     "FJ1265 Left upper central secondary incisor tooth"
+    ],
+    "tooth-upper-lateral-incisor-left": [
+     "FJ1266 Left upper lateral secondary incisor tooth"
+    ],
+    "tooth-upper-canine-left": [
+     "FJ1267 Left upper secondary canine tooth"
+    ],
+    "tooth-lower-molar-1-right": [
+     "FJ1268 Right lower first secondary molar tooth"
+    ],
+    "tooth-lower-premolar-1-right": [
+     "FJ1269 Right lower first secondary premolar tooth"
+    ],
+    "tooth-lower-molar-2-right": [
+     "FJ1270 Right lower second secondary molar tooth"
+    ],
+    "tooth-lower-premolar-2-right": [
+     "FJ1271 Right lower second secondary premolar tooth"
+    ],
+    "tooth-lower-central-incisor-right": [
+     "FJ1272 Right lower central secondary incisor tooth"
+    ],
+    "tooth-lower-lateral-incisor-right": [
+     "FJ1273 Right lower lateral secondary incisor tooth"
+    ],
+    "tooth-lower-canine-right": [
+     "FJ1274 Right lower secondary canine tooth"
+    ],
+    "tooth-upper-molar-2-right": [
+     "FJ1275 Right upper second secondary molar tooth"
+    ],
+    "tooth-upper-molar-1-right": [
+     "FJ1276 Right upper first secondary molar tooth"
+    ],
+    "tooth-upper-premolar-1-right": [
+     "FJ1277 Right upper first secondary premolar tooth"
+    ],
+    "tooth-upper-premolar-2-right": [
+     "FJ1278 Right upper second secondary premolar tooth"
+    ],
+    "tooth-upper-central-incisor-right": [
+     "FJ1279 Right upper central secondary incisor tooth"
+    ],
+    "tooth-upper-lateral-incisor-right": [
+     "FJ1280 Right upper lateral secondary incisor tooth"
+    ],
+    "tooth-upper-canine-right": [
+     "FJ1281 Right upper secondary canine tooth"
+    ],
+    "interosseous-membrane-leg-right": [
+     "FJ1392 Interosseous membrane of right leg"
+    ],
+    "interosseous-membrane-leg-left": [
+     "FJ1392M Interosseous membrane of left leg"
+    ],
+    "long-plantar-ligament-right": [
+     "FJ1424 Right long plantar ligament"
+    ],
+    "long-plantar-ligament-left": [
+     "FJ1424M Left long plantar ligament"
+    ],
+    "interosseous-membrane-forearm-right": [
+     "FJ1476 Interosseous membrane of right forearm"
+    ],
+    "interosseous-membrane-forearm-left": [
+     "FJ1476M Interosseous membrane of left forearm"
+    ],
+    "cricoid-cartilage": [
+     "FJ2440 Cricoid cartilage"
+    ],
+    "major-alar-cartilage-right": [
+     "FJ2554 Right major alar cartilage"
+    ],
+    "major-alar-cartilage-left": [
+     "FJ2555 Left major alar cartilage"
+    ],
+    "stylohyoid-ligament-left": [
+     "FJ2763 Left stylohyoid ligament"
+    ],
+    "stylohyoid-ligament-right": [
+     "FJ2764 Right stylohyoid ligament"
+    ],
+    "hyoid": [
+     "FJ2772 Hyoid bone"
+    ],
+    "cuneiform-cartilage-left": [
+     "FJ2773 Left cuneiform cartilage"
+    ],
+    "arytenoid-cartilage-left": [
+     "FJ2775 Left arytenoid cartilage"
+    ],
+    "corniculate-cartilage-left": [
+     "FJ2776 Left corniculate cartilage"
+    ],
+    "arytenoid-cartilage-right": [
+     "FJ2792 Right arytenoid cartilage"
+    ],
+    "corniculate-cartilage-right": [
+     "FJ2793 Right corniculate cartilage"
+    ],
+    "cuneiform-cartilage-right": [
+     "FJ2795 Right cuneiform cartilage"
+    ],
+    "thyroid-cartilage": [
+     "FJ2808 Thyroid cartilage"
+    ],
+    "hip-bone-right": [
+     "FJ3152 Right hip bone"
+    ],
+    "xiphoid": [
+     "FJ3153 Xiphoid process"
+    ],
+    "t10": [
+     "FJ3154 Tenth thoracic vertebra"
+    ],
+    "t11": [
+     "FJ3155 Eleventh thoracic vertebra"
+    ],
+    "t12": [
+     "FJ3156 Twelfth thoracic vertebra"
+    ],
+    "l1": [
+     "FJ3157 First lumbar vertebra"
+    ],
+    "t1": [
+     "FJ3158 First thoracic vertebra"
+    ],
+    "l2": [
+     "FJ3159 Second lumbar vertebra"
+    ],
+    "t2": [
+     "FJ3160 Second thoracic vertebra"
+    ],
+    "c3": [
+     "FJ3161 Third cervical vertebra"
+    ],
+    "l3": [
+     "FJ3162 Third lumbar vertebra"
+    ],
+    "t3": [
+     "FJ3163 Third thoracic vertebra"
+    ],
+    "c4": [
+     "FJ3164 Fourth cervical vertebra"
+    ],
+    "l4": [
+     "FJ3165 Fourth lumbar vertebra"
+    ],
+    "t4": [
+     "FJ3166 Fourth thoracic vertebra"
+    ],
+    "c5": [
+     "FJ3167 Fifth cervical vertebra"
+    ],
+    "l5": [
+     "FJ3168 Fifth lumbar vertebra"
+    ],
+    "t5": [
+     "FJ3169 Fifth thoracic vertebra"
+    ],
+    "c6": [
+     "FJ3170 Sixth cervical vertebra"
+    ],
+    "t6": [
+     "FJ3171 Sixth thoracic vertebra"
+    ],
+    "c7": [
+     "FJ3172 Seventh cervical vertebra"
+    ],
+    "t7": [
+     "FJ3173 Seventh thoracic vertebra"
+    ],
+    "t8": [
+     "FJ3174 Eighth thoracic vertebra"
+    ],
+    "t9": [
+     "FJ3175 Ninth thoracic vertebra"
+    ],
+    "c1": [
+     "FJ3176 Atlas"
+    ],
+    "c2": [
+     "FJ3177 Axis"
+    ],
+    "sternal-body": [
+     "FJ3178 Body of sternum"
+    ],
+    "distal-phalanx-toe-2-left": [
+     "FJ3179 Distal phalanx of left second toe"
+    ],
+    "distal-phalanx-toe-3-left": [
+     "FJ3180 Distal phalanx of left third toe"
+    ],
+    "distal-phalanx-toe-4-left": [
+     "FJ3181 Distal phalanx of left fourth toe"
+    ],
+    "distal-phalanx-toe-1-left": [
+     "FJ3182 Distal phalanx of left big toe"
+    ],
+    "distal-phalanx-index-left": [
+     "FJ3183 Distal phalanx of left index finger"
+    ],
+    "distal-phalanx-little-left": [
+     "FJ3184 Distal phalanx of left little finger"
+    ],
+    "distal-phalanx-toe-5-left": [
+     "FJ3185 Distal phalanx of left little toe"
+    ],
+    "distal-phalanx-middle-left": [
+     "FJ3186 Distal phalanx of left middle finger"
+    ],
+    "distal-phalanx-ring-left": [
+     "FJ3187 Distal phalanx of left ring finger"
+    ],
+    "distal-phalanx-thumb-left": [
+     "FJ3188 Distal phalanx of left thumb"
+    ],
+    "distal-phalanx-toe-2-right": [
+     "FJ3189 Distal phalanx of right second toe"
+    ],
+    "distal-phalanx-toe-3-right": [
+     "FJ3190 Distal phalanx of right third toe"
+    ],
+    "distal-phalanx-toe-4-right": [
+     "FJ3191 Distal phalanx of right fourth toe"
+    ],
+    "distal-phalanx-toe-1-right": [
+     "FJ3192 Distal phalanx of right big toe"
+    ],
+    "distal-phalanx-index-right": [
+     "FJ3193 Distal phalanx of right index finger"
+    ],
+    "distal-phalanx-little-right": [
+     "FJ3194 Distal phalanx of right little finger"
+    ],
+    "distal-phalanx-toe-5-right": [
+     "FJ3195 Distal phalanx of right little toe"
+    ],
+    "distal-phalanx-middle-right": [
+     "FJ3196 Distal phalanx of right middle finger"
+    ],
+    "distal-phalanx-ring-right": [
+     "FJ3197 Distal phalanx of right ring finger"
+    ],
+    "distal-phalanx-thumb-right": [
+     "FJ3198 Distal phalanx of right thumb"
+    ],
+    "ethmoid": [
+     "FJ3199 Ethmoid"
+    ],
+    "frontal": [
+     "FJ3200 Frontal bone"
+    ],
+    "disc-c2": [
+     "FJ3202 Intervertebral disk of axis"
+    ],
+    "disc-t4": [
+     "FJ3203 Intervertebral disk of fourth thoracic vertebra"
+    ],
+    "disc-t5": [
+     "FJ3204 Intervertebral disk of fifth thoracic vertebra"
+    ],
+    "disc-t6": [
+     "FJ3205 Intervertebral disk of sixth thoracic vertebra"
+    ],
+    "disc-t7": [
+     "FJ3206 Intervertebral disk of seventh thoracic vertebra"
+    ],
+    "disc-t8": [
+     "FJ3207 Intervertebral disk of eighth thoracic vertebra"
+    ],
+    "disc-t9": [
+     "FJ3208 Intervertebral disk of ninth thoracic vertebra"
+    ],
+    "disc-t10": [
+     "FJ3209 Intervertebral disk of tenth thoracic vertebra"
+    ],
+    "disc-t11": [
+     "FJ3210 Intervertebral disk of eleventh thoracic vertebra"
+    ],
+    "disc-t12": [
+     "FJ3211 Intervertebral disk"
+    ],
+    "disc-l1": [
+     "FJ3212 Intervertebral disk of first lumbar vertebra"
+    ],
+    "disc-c3": [
+     "FJ3213 Intervertebral disk of third cervical vertebra"
+    ],
+    "disc-l2": [
+     "FJ3214 Intervertebral disk of second lumbar vertebra"
+    ],
+    "disc-l3": [
+     "FJ3215 Intervertebral disk of third lumbar vertebra"
+    ],
+    "disc-l4": [
+     "FJ3216 Intervertebral disk of fourth lumbar vertebra"
+    ],
+    "disc-l5": [
+     "FJ3217 Intervertebral disk of fifth lumbar vertebra"
+    ],
+    "disc-c4": [
+     "FJ3218 Intervertebral disk of fourth cervical vertebra"
+    ],
+    "disc-c5": [
+     "FJ3219 Intervertebral disk of fifth cervical vertebra"
+    ],
+    "disc-c6": [
+     "FJ3220 Intervertebral disk of sixth cervical vertebra"
+    ],
+    "disc-c7": [
+     "FJ3221 Intervertebral disk of seventh cervical vertebra"
+    ],
+    "disc-t1": [
+     "FJ3222 Intervertebral disk of first thoracic vertebra"
+    ],
+    "disc-t2": [
+     "FJ3223 Intervertebral disk of second thoracic vertebra"
+    ],
+    "disc-t3": [
+     "FJ3224 Intervertebral disk of third thoracic vertebra"
+    ],
+    "rib-10-left": [
+     "FJ3225 Left tenth rib"
+    ],
+    "rib-11-left": [
+     "FJ3226 Left eleventh rib"
+    ],
+    "rib-12-left": [
+     "FJ3227 Left twelfth rib"
+    ],
+    "rib-1-left": [
+     "FJ3228 Left first rib"
+    ],
+    "rib-2-left": [
+     "FJ3229 Left second rib"
+    ],
+    "rib-3-left": [
+     "FJ3230 Left third rib"
+    ],
+    "rib-4-left": [
+     "FJ3231 Left fourth rib"
+    ],
+    "rib-5-left": [
+     "FJ3232 Left fifth rib"
+    ],
+    "rib-6-left": [
+     "FJ3233 Left sixth rib"
+    ],
+    "rib-7-left": [
+     "FJ3234 Left seventh rib"
+    ],
+    "rib-8-left": [
+     "FJ3235 Left eighth rib"
+    ],
+    "rib-9-left": [
+     "FJ3236 Left ninth rib"
+    ],
+    "clavicle-left": [
+     "FJ3237 Left clavicle"
+    ],
+    "costal-cartilage-1-left": [
+     "FJ3239 Left first costal cartilage"
+    ],
+    "metacarpal-1-left": [
+     "FJ3240 Left first metacarpal bone"
+    ],
+    "metatarsal-1-left": [
+     "FJ3241 Left first metatarsal bone"
+    ],
+    "costal-cartilage-2-left": [
+     "FJ3242 Left second costal cartilage"
+    ],
+    "metacarpal-2-left": [
+     "FJ3243 Left second metacarpal bone"
+    ],
+    "metatarsal-2-left": [
+     "FJ3244 Left second metatarsal bone"
+    ],
+    "costal-cartilage-3-left": [
+     "FJ3245 Left third costal cartilage"
+    ],
+    "metacarpal-3-left": [
+     "FJ3246 Left third metacarpal bone"
+    ],
+    "metatarsal-3-left": [
+     "FJ3247 Left third metatarsal bone"
+    ],
+    "costal-cartilage-4-left": [
+     "FJ3248 Left fourth costal cartilage"
+    ],
+    "metacarpal-4-left": [
+     "FJ3249 Left fourth metacarpal bone"
+    ],
+    "metatarsal-4-left": [
+     "FJ3250 Left fourth metatarsal bone"
+    ],
+    "costal-cartilage-5-left": [
+     "FJ3251 Left fifth costal cartilage"
+    ],
+    "metacarpal-5-left": [
+     "FJ3252 Left fifth metacarpal bone"
+    ],
+    "metatarsal-5-left": [
+     "FJ3253 Left fifth metatarsal bone"
+    ],
+    "costal-cartilage-6-left": [
+     "FJ3254 Left sixth costal cartilage"
+    ],
+    "costal-cartilage-7-left": [
+     "FJ3255 Left seventh costal cartilage"
+    ],
+    "calcaneus-left": [
+     "FJ3256 Left calcaneus"
+    ],
+    "capitate-left": [
+     "FJ3257 Left capitate"
+    ],
+    "cuboid-left": [
+     "FJ3258 Left cuboid bone"
+    ],
+    "femur-left": [
+     "FJ3259 Left femur"
+    ],
+    "fibula-left": [
+     "FJ3260 Left fibula"
+    ],
+    "hamate-left": [
+     "FJ3261 Left hamate"
+    ],
+    "humerus-left": [
+     "FJ3262 Left humerus"
+    ],
+    "intermediate-cuneiform-left": [
+     "FJ3264 Left intermediate cuneiform bone"
+    ],
+    "lacrimal-left": [
+     "FJ3265 Left lacrimal bone"
+    ],
+    "sesamoids-foot-left": [
+     "FJ3266 Sesamoid bone of left foot",
+     "FJ3270 Sesamoid bone of left foot"
+    ],
+    "lateral-cuneiform-left": [
+     "FJ3267 Left lateral cuneiform bone"
+    ],
+    "lunate-left": [
+     "FJ3268 Left lunate"
+    ],
+    "maxilla-left": [
+     "FJ3269 Left maxilla"
+    ],
+    "medial-cuneiform-left": [
+     "FJ3271 Left medial cuneiform bone"
+    ],
+    "nasal-left": [
+     "FJ3272 Left nasal bone"
+    ],
+    "palatine-left": [
+     "FJ3273 Left palatine bone"
+    ],
+    "parietal-left": [
+     "FJ3274 Left parietal bone"
+    ],
+    "patella-left": [
+     "FJ3275 Left patella"
+    ],
+    "pisiform-left": [
+     "FJ3276 Left pisiform"
+    ],
+    "radius-left": [
+     "FJ3277 Left radius"
+    ],
+    "scaphoid-left": [
+     "FJ3278 Left scaphoid"
+    ],
+    "scapula-left": [
+     "FJ3279 Left scapula"
+    ],
+    "talus-left": [
+     "FJ3280 Left talus"
+    ],
+    "temporal-left": [
+     "FJ3281 Left temporal bone"
+    ],
+    "tibia-left": [
+     "FJ3282 Left tibia"
+    ],
+    "trapezium-left": [
+     "FJ3283 Left trapezium"
+    ],
+    "trapezoid-left": [
+     "FJ3284 Left trapezoid"
+    ],
+    "triquetral-left": [
+     "FJ3285 Left triquetral"
+    ],
+    "ulna-left": [
+     "FJ3286 Left ulna"
+    ],
+    "zygomatic-left": [
+     "FJ3287 Left zygomatic bone"
+    ],
+    "hip-bone-left": [
+     "FJ3288 Left hip bone"
+    ],
+    "mandible": [
+     "FJ3289 Mandible"
+    ],
+    "manubrium": [
+     "FJ3290 Manubrium"
+    ],
+    "middle-phalanx-ring-left": [
+     "FJ3291 Middle phalanx of left ring finger"
+    ],
+    "middle-phalanx-ring-right": [
+     "FJ3292 Middle phalanx of right ring finger"
+    ],
+    "middle-phalanx-toe-2-left": [
+     "FJ3293 Middle phalanx of left second toe"
+    ],
+    "middle-phalanx-toe-3-left": [
+     "FJ3294 Middle phalanx of left third toe"
+    ],
+    "middle-phalanx-toe-4-left": [
+     "FJ3295 Middle phalanx of left fourth toe"
+    ],
+    "middle-phalanx-index-left": [
+     "FJ3296 Middle phalanx of left index finger"
+    ],
+    "middle-phalanx-little-left": [
+     "FJ3297 Middle phalanx of left little finger"
+    ],
+    "middle-phalanx-toe-5-left": [
+     "FJ3298 Middle phalanx of left little toe"
+    ],
+    "middle-phalanx-middle-left": [
+     "FJ3299 Middle phalanx of left middle finger"
+    ],
+    "middle-phalanx-toe-2-right": [
+     "FJ3300 Middle phalanx of right second toe"
+    ],
+    "middle-phalanx-toe-3-right": [
+     "FJ3301 Middle phalanx of right third toe"
+    ],
+    "middle-phalanx-toe-4-right": [
+     "FJ3302 Middle phalanx of right fourth toe"
+    ],
+    "middle-phalanx-index-right": [
+     "FJ3303 Middle phalanx of right index finger"
+    ],
+    "middle-phalanx-little-right": [
+     "FJ3304 Middle phalanx of right little finger"
+    ],
+    "middle-phalanx-toe-5-right": [
+     "FJ3305 Middle phalanx of right little toe"
+    ],
+    "middle-phalanx-middle-right": [
+     "FJ3306 Middle phalanx of right middle finger"
+    ],
+    "navicular-left": [
+     "FJ3307 Navicular bone of left foot"
+    ],
+    "navicular-right": [
+     "FJ3308 Navicular bone of right foot"
+    ],
+    "occipital": [
+     "FJ3309 Occipital bone"
+    ],
+    "proximal-phalanx-toe-1-right": [
+     "FJ3310 Proximal phalanx of right big toe"
+    ],
+    "proximal-phalanx-toe-3-left": [
+     "FJ3311 Proximal phalanx of left third toe"
+    ],
+    "proximal-phalanx-toe-4-left": [
+     "FJ3312 Proximal phalanx of left fourth toe"
+    ],
+    "proximal-phalanx-index-left": [
+     "FJ3313 Proximal phalanx of left index finger"
+    ],
+    "proximal-phalanx-little-left": [
+     "FJ3314 Proximal phalanx of left little finger"
+    ],
+    "proximal-phalanx-toe-5-left": [
+     "FJ3315 Proximal phalanx of left little toe"
+    ],
+    "proximal-phalanx-middle-left": [
+     "FJ3316 Proximal phalanx of left middle finger"
+    ],
+    "proximal-phalanx-ring-left": [
+     "FJ3317 Proximal phalanx of left ring finger"
+    ],
+    "proximal-phalanx-thumb-left": [
+     "FJ3318 Proximal phalanx of left thumb"
+    ],
+    "proximal-phalanx-toe-2-right": [
+     "FJ3319 Proximal phalanx of right second toe"
+    ],
+    "proximal-phalanx-toe-3-right": [
+     "FJ3320 Proximal phalanx of right third toe"
+    ],
+    "proximal-phalanx-toe-4-right": [
+     "FJ3321 Proximal phalanx of right fourth toe"
+    ],
+    "proximal-phalanx-index-right": [
+     "FJ3322 Proximal phalanx of right index finger"
+    ],
+    "proximal-phalanx-little-right": [
+     "FJ3323 Proximal phalanx of right little finger"
+    ],
+    "proximal-phalanx-toe-5-right": [
+     "FJ3324 Proximal phalanx of right little toe"
+    ],
+    "proximal-phalanx-middle-right": [
+     "FJ3325 Proximal phalanx of right middle finger"
+    ],
+    "proximal-phalanx-ring-right": [
+     "FJ3326 Proximal phalanx of right ring finger"
+    ],
+    "proximal-phalanx-thumb-right": [
+     "FJ3327 Proximal phalanx of right thumb"
+    ],
+    "proximal-phalanx-toe-2-left": [
+     "FJ3328 Proximal phalanx of left second toe"
+    ],
+    "proximal-phalanx-toe-1-left": [
+     "FJ3329 Proximal phalanx of left big toe"
+    ],
+    "rib-10-right": [
+     "FJ3330 Right tenth rib"
+    ],
+    "rib-11-right": [
+     "FJ3331 Right eleventh rib"
+    ],
+    "rib-12-right": [
+     "FJ3332 Right twelfth rib"
+    ],
+    "costal-cartilage-1-right": [
+     "FJ3333 Right first costal cartilage"
+    ],
+    "rib-1-right": [
+     "FJ3334 Right first rib"
+    ],
+    "costal-cartilage-2-right": [
+     "FJ3335 Right second costal cartilage"
+    ],
+    "rib-2-right": [
+     "FJ3336 Right second rib"
+    ],
+    "costal-cartilage-3-right": [
+     "FJ3337 Right third costal cartilage"
+    ],
+    "rib-3-right": [
+     "FJ3338 Right third rib"
+    ],
+    "costal-cartilage-4-right": [
+     "FJ3339 Right fourth costal cartilage"
+    ],
+    "rib-4-right": [
+     "FJ3340 Right fourth rib"
+    ],
+    "costal-cartilage-5-right": [
+     "FJ3341 Right fifth costal cartilage"
+    ],
+    "rib-5-right": [
+     "FJ3342 Right fifth rib"
+    ],
+    "costal-cartilage-6-right": [
+     "FJ3343 Right sixth costal cartilage"
+    ],
+    "rib-6-right": [
+     "FJ3344 Right sixth rib"
+    ],
+    "costal-cartilage-7-right": [
+     "FJ3345 Right seventh costal cartilage"
+    ],
+    "rib-7-right": [
+     "FJ3346 Right seventh rib"
+    ],
+    "rib-8-right": [
+     "FJ3347 Right eighth rib"
+    ],
+    "rib-9-right": [
+     "FJ3348 Right ninth rib"
+    ],
+    "radius-right": [
+     "FJ3349 Right radius"
+    ],
+    "metacarpal-1-right": [
+     "FJ3350 Right first metacarpal bone"
+    ],
+    "metatarsal-1-right": [
+     "FJ3351 Right first metatarsal bone"
+    ],
+    "metacarpal-2-right": [
+     "FJ3352 Right second metacarpal bone"
+    ],
+    "metatarsal-2-right": [
+     "FJ3353 Right second metatarsal bone"
+    ],
+    "metacarpal-3-right": [
+     "FJ3354 Right third metacarpal bone"
+    ],
+    "metatarsal-3-right": [
+     "FJ3355 Right third metatarsal bone"
+    ],
+    "metacarpal-4-right": [
+     "FJ3356 Right fourth metacarpal bone"
+    ],
+    "metatarsal-4-right": [
+     "FJ3357 Right fourth metatarsal bone"
+    ],
+    "metacarpal-5-right": [
+     "FJ3358 Right fifth metacarpal bone"
+    ],
+    "metatarsal-5-right": [
+     "FJ3359 Right fifth metatarsal bone"
+    ],
+    "calcaneus-right": [
+     "FJ3360 Right calcaneus"
+    ],
+    "capitate-right": [
+     "FJ3361 Right capitate"
+    ],
+    "clavicle-right": [
+     "FJ3362 Right clavicle"
+    ],
+    "cuboid-right": [
+     "FJ3364 Right cuboid bone"
+    ],
+    "femur-right": [
+     "FJ3365 Right femur"
+    ],
+    "fibula-right": [
+     "FJ3366 Right fibula"
+    ],
+    "hamate-right": [
+     "FJ3367 Right hamate"
+    ],
+    "humerus-right": [
+     "FJ3368 Right humerus"
+    ],
+    "intermediate-cuneiform-right": [
+     "FJ3370 Right intermediate cuneiform bone"
+    ],
+    "lacrimal-right": [
+     "FJ3371 Right lacrimal bone"
+    ],
+    "sesamoids-foot-right": [
+     "FJ3372 Sesamoid bone of right foot",
+     "FJ3376 Sesamoid bone of right foot"
+    ],
+    "lateral-cuneiform-right": [
+     "FJ3373 Right lateral cuneiform bone"
+    ],
+    "lunate-right": [
+     "FJ3374 Right lunate"
+    ],
+    "maxilla-right": [
+     "FJ3375 Right maxilla"
+    ],
+    "medial-cuneiform-right": [
+     "FJ3377 Right medial cuneiform bone"
+    ],
+    "nasal-right": [
+     "FJ3378 Right nasal bone"
+    ],
+    "palatine-right": [
+     "FJ3379 Right palatine bone"
+    ],
+    "parietal-right": [
+     "FJ3380 Right parietal bone"
+    ],
+    "patella-right": [
+     "FJ3381 Right patella"
+    ],
+    "pisiform-right": [
+     "FJ3382 Right pisiform"
+    ],
+    "scaphoid-right": [
+     "FJ3383 Right scaphoid"
+    ],
+    "scapula-right": [
+     "FJ3384 Right scapula"
+    ],
+    "talus-right": [
+     "FJ3385 Right talus"
+    ],
+    "temporal-right": [
+     "FJ3386 Right temporal bone"
+    ],
+    "tibia-right": [
+     "FJ3387 Right tibia"
+    ],
+    "trapezium-right": [
+     "FJ3388 Right trapezium"
+    ],
+    "trapezoid-right": [
+     "FJ3389 Right trapezoid"
+    ],
+    "triquetral-right": [
+     "FJ3390 Right triquetral"
+    ],
+    "ulna-right": [
+     "FJ3391 Right ulna"
+    ],
+    "zygomatic-right": [
+     "FJ3392 Right zygomatic bone"
+    ],
+    "sacrum": [
+     "FJ3393 Sacrum"
+    ],
+    "sphenoid": [
+     "FJ3394 Sphenoid bone"
+    ],
+    "vomer": [
+     "FJ3395 Vomer"
+    ]
+   }
+  },
+  "united": {
+   "name": "3D Reference Organ Set for Female v1.5 (HuBMAP HRA united female), as converted by Female Atlas",
+   "creators": "Kristen Browne, Heidi Schlehlein",
+   "doi": "https://doi.org/10.48539/HBM352.BTSQ.586",
+   "license": "CC-BY-4.0",
+   "intermediate": "github.com/Niyaz-05/female-atlas, commit 4c2dfcca02739b59827601915128ee64abdff2ea",
+   "atlasJsonSha256": "5fec63b2ebcb76ecd9c33027ed725e8ec0a7a76b756f72681285410072ae5c51",
+   "chunkSha256": {
+    "female-20.bin": "4364880b15e11fa921d20b4e209e7bccf676209f4525230571984a7320276305",
+    "female-19.bin": "2e86d94436a59c29ac5b9a5665087de77bf711d6840a286cd4b36ed0fbc09562",
+    "female-8.bin": "059405eeb4951a5a64f4593da3c6a460b7adf8c45dc207341bf5eb496668bafc",
+    "female-7.bin": "8ce85965a15c7574df239d48f23c10a33a8e1a8b208eec3d8ea08cfdebbfc889"
+   },
+   "parts": {
+    "coccyx": [
+     "VH_F_coccyx"
+    ],
+    "acl-left": [
+     "VH_F_anterior_cruciate_ligament_of_knee_L"
+    ],
+    "pcl-left": [
+     "VH_F_posterior_cruciate_ligament_of_knee_L"
+    ],
+    "menisci-left": [
+     "VH_F_meniscus_L"
+    ],
+    "anterolateral-ligament-left": [
+     "VH_F_anterolateral_ligament_of_knee_L"
+    ],
+    "acl-right": [
+     "VH_F_anterior_cruciate_ligament_of_knee_R"
+    ],
+    "pcl-right": [
+     "VH_F_posterior_cruciate_ligament_of_knee_R"
+    ],
+    "menisci-right": [
+     "VH_F_meniscus_R"
+    ],
+    "anterolateral-ligament-right": [
+     "VH_F_anterolateral_ligament_of_knee_R"
+    ],
+    "female-sacrum": [
+     "VH_F_sacrum"
+    ],
+    "female-coccyx": [
+     "VH_F_coccyx"
+    ],
+    "female-hip-bone-left": [
+     "VH_F_ilium_compact_bone_L",
+     "VH_F_ischium_compact_bone_L",
+     "VH_F_pubis_compact_bone_L"
+    ],
+    "female-spongy-bone-left": [
+     "VH_F_ilium_spongy_bone_L",
+     "VH_F_ischium_spongy_bone_L",
+     "VH_F_pubis_spongy_bone_L"
+    ],
+    "female-hip-bone-right": [
+     "VH_F_ilium_compact_bone_R",
+     "VH_F_ischium_compact_bone_R",
+     "VH_F_pubis_compact_bone_R"
+    ],
+    "female-spongy-bone-right": [
+     "VH_F_ilium_spongy_bone_R",
+     "VH_F_ischium_spongy_bone_R",
+     "VH_F_pubis_spongy_bone_R"
+    ]
+   }
+  },
+  "registration": {
+   "method": "Pelvis: Horn's quaternion method on the vertex-for-vertex correspondence of the BodyParts3D bones present in both the Female Atlas and BodyParts3D (for the coccyx, the sacrum within 5 cm of its apex). Knees: the HRA menisci centred on the BodyParts3D tibial plateau (its top 12 mm), resting on it and scaled to its width; the cruciate and anterolateral ligaments move with them",
+   "fits": {
+    "pelvis": {
+     "bones": [
+      "FJ3393"
+     ],
+     "scale": 1.005121,
+     "near": "sacral-apex",
+     "radius": 0.05,
+     "maxRmsMm": 2,
+     "usedFor": [
+      "coccyx"
+     ],
+     "rotationDeg": 0.382105,
+     "rmsMm": 0.89967,
+     "vertices": 392
+    },
+    "pelvis-rigid": {
+     "bones": [
+      "FJ3393",
+      "FJ3288",
+      "FJ3152"
+     ],
+     "scale": 1,
+     "maxRmsMm": 8,
+     "usedFor": [
+      "female-sacrum",
+      "female-coccyx",
+      "female-hip-bone-left",
+      "female-spongy-bone-left",
+      "female-hip-bone-right",
+      "female-spongy-bone-right"
+     ],
+     "rotationDeg": 2.985018,
+     "rmsMm": 5.736714,
+     "vertices": 4793
+    },
+    "knee-left": {
+     "method": "plateau",
+     "tibia": "FJ3282",
+     "menisci": "VH_F_meniscus_L",
+     "usedFor": [
+      "acl-left",
+      "pcl-left",
+      "menisci-left",
+      "anterolateral-ligament-left"
+     ],
+     "scale": 0.996927,
+     "rotationDeg": 0,
+     "rmsMm": null,
+     "vertices": null,
+     "plateauWidthMm": 72.647396,
+     "menisciWidthMm": 72.871298
+    },
+    "knee-right": {
+     "method": "plateau",
+     "tibia": "FJ3387",
+     "menisci": "VH_F_meniscus_R",
+     "usedFor": [
+      "acl-right",
+      "pcl-right",
+      "menisci-right",
+      "anterolateral-ligament-right"
+     ],
+     "scale": 0.995282,
+     "rotationDeg": 0,
+     "rmsMm": null,
+     "vertices": null,
+     "plateauWidthMm": 72.527498,
+     "menisciWidthMm": 72.871312
+    }
+   }
+  }
+ },
+ "changesHere": "Selected and merged the source meshes in src/lab/source/structures.source.json; welded coincident vertices; subdivided and smoothed the meshes under 400 triangles; simplified the large HRA meshes with meshoptimizer within 0.4 % relative error; recomputed smooth normals; carried the HRA coccyx, knee ligaments, menisci and female pelvis onto BodyParts3D by correspondence fits; measured the joints, bones and pelvises; translated so the middle of the skeleton's bounds is the origin.",
+ "centreOffsetMetres": [
+  0,
+  0.860976,
+  0.009021
+ ],
+ "measures": {
+  "statureMm": 1706.689956,
+  "boneLengthsMm": {
+   "femur": 466.702605,
+   "tibia": 379.434414,
+   "fibula": 383.740167,
+   "humerus": 309.060037,
+   "radius": 237.473611,
+   "ulna": 254.805114,
+   "clavicle": 152.087205
+  },
+  "femoralHeadMm": 45.565846,
+  "humeralHeadMm": 43.419036,
+  "pelvis": {
+   "male": {
+    "inletConjugateMm": 103.041088,
+    "subpubicAngleDeg": 65.417653,
+    "biiliacWidthMm": 289.625987,
+    "heightMm": 205.918014,
+    "symphysisTop": [
+     0.009199,
+     0.02353,
+     0.019133
+    ],
+    "promontory": [
+     0.005839,
+     0.114691,
+     -0.028783
+    ]
+   },
+   "female": {
+    "inletConjugateMm": 125.111791,
+    "subpubicAngleDeg": 108.246821,
+    "biiliacWidthMm": 316.649497,
+    "heightMm": 210.874319,
+    "symphysisTop": [
+     0.003654,
+     -0.022659,
+     0.030385
+    ],
+    "promontory": [
+     0.006428,
+     0.082321,
+     -0.037619
+    ]
+   }
+  }
+ },
+ "checks": {
+  "leftHipBelowShoulder": true,
+  "leftKneeBelowHip": true,
+  "leftAnkleBelowKnee": true,
+  "leftLimbsOnTheirSide": true,
+  "rightHipBelowShoulder": true,
+  "rightKneeBelowHip": true,
+  "rightAnkleBelowKnee": true,
+  "rightLimbsOnTheirSide": true,
+  "jawBelowSkull": true,
+  "femaleInletDeeper": true,
+  "femaleArchWider": true,
+  "pelvisMeasuresPlausible": true,
+  "coccyxBelowSacrum": true,
+  "cruciatesInKnees": true,
+  "statureAdult": true,
+  "femoralHeadsTextbook": true,
+  "fractureRadiiPlausible": true,
+  "physesInsideBones": true
+ },
+ "structures": [
+  {
+   "id": "gingiva-upper",
+   "bp3d": [
+    "FJ1252"
+   ]
+  },
+  {
+   "id": "gingiva-lower",
+   "bp3d": [
+    "FJ1253"
+   ]
+  },
+  {
+   "id": "tooth-lower-molar-1-left",
+   "bp3d": [
+    "FJ1254"
+   ]
+  },
+  {
+   "id": "tooth-lower-premolar-1-left",
+   "bp3d": [
+    "FJ1255"
+   ]
+  },
+  {
+   "id": "tooth-lower-molar-2-left",
+   "bp3d": [
+    "FJ1256"
+   ]
+  },
+  {
+   "id": "tooth-lower-premolar-2-left",
+   "bp3d": [
+    "FJ1257"
+   ]
+  },
+  {
+   "id": "tooth-lower-central-incisor-left",
+   "bp3d": [
+    "FJ1258"
+   ]
+  },
+  {
+   "id": "tooth-lower-lateral-incisor-left",
+   "bp3d": [
+    "FJ1259"
+   ]
+  },
+  {
+   "id": "tooth-lower-canine-left",
+   "bp3d": [
+    "FJ1260"
+   ]
+  },
+  {
+   "id": "tooth-upper-molar-1-left",
+   "bp3d": [
+    "FJ1261"
+   ]
+  },
+  {
+   "id": "tooth-upper-premolar-1-left",
+   "bp3d": [
+    "FJ1262"
+   ]
+  },
+  {
+   "id": "tooth-upper-molar-2-left",
+   "bp3d": [
+    "FJ1263"
+   ]
+  },
+  {
+   "id": "tooth-upper-premolar-2-left",
+   "bp3d": [
+    "FJ1264"
+   ]
+  },
+  {
+   "id": "tooth-upper-central-incisor-left",
+   "bp3d": [
+    "FJ1265"
+   ]
+  },
+  {
+   "id": "tooth-upper-lateral-incisor-left",
+   "bp3d": [
+    "FJ1266"
+   ]
+  },
+  {
+   "id": "tooth-upper-canine-left",
+   "bp3d": [
+    "FJ1267"
+   ]
+  },
+  {
+   "id": "tooth-lower-molar-1-right",
+   "bp3d": [
+    "FJ1268"
+   ]
+  },
+  {
+   "id": "tooth-lower-premolar-1-right",
+   "bp3d": [
+    "FJ1269"
+   ]
+  },
+  {
+   "id": "tooth-lower-molar-2-right",
+   "bp3d": [
+    "FJ1270"
+   ]
+  },
+  {
+   "id": "tooth-lower-premolar-2-right",
+   "bp3d": [
+    "FJ1271"
+   ]
+  },
+  {
+   "id": "tooth-lower-central-incisor-right",
+   "bp3d": [
+    "FJ1272"
+   ]
+  },
+  {
+   "id": "tooth-lower-lateral-incisor-right",
+   "bp3d": [
+    "FJ1273"
+   ]
+  },
+  {
+   "id": "tooth-lower-canine-right",
+   "bp3d": [
+    "FJ1274"
+   ]
+  },
+  {
+   "id": "tooth-upper-molar-2-right",
+   "bp3d": [
+    "FJ1275"
+   ]
+  },
+  {
+   "id": "tooth-upper-molar-1-right",
+   "bp3d": [
+    "FJ1276"
+   ]
+  },
+  {
+   "id": "tooth-upper-premolar-1-right",
+   "bp3d": [
+    "FJ1277"
+   ]
+  },
+  {
+   "id": "tooth-upper-premolar-2-right",
+   "bp3d": [
+    "FJ1278"
+   ]
+  },
+  {
+   "id": "tooth-upper-central-incisor-right",
+   "bp3d": [
+    "FJ1279"
+   ]
+  },
+  {
+   "id": "tooth-upper-lateral-incisor-right",
+   "bp3d": [
+    "FJ1280"
+   ]
+  },
+  {
+   "id": "tooth-upper-canine-right",
+   "bp3d": [
+    "FJ1281"
+   ]
+  },
+  {
+   "id": "interosseous-membrane-leg-right",
+   "bp3d": [
+    "FJ1392"
+   ]
+  },
+  {
+   "id": "interosseous-membrane-leg-left",
+   "bp3d": [
+    "FJ1392M"
+   ]
+  },
+  {
+   "id": "long-plantar-ligament-right",
+   "bp3d": [
+    "FJ1424"
+   ]
+  },
+  {
+   "id": "long-plantar-ligament-left",
+   "bp3d": [
+    "FJ1424M"
+   ]
+  },
+  {
+   "id": "interosseous-membrane-forearm-right",
+   "bp3d": [
+    "FJ1476"
+   ]
+  },
+  {
+   "id": "interosseous-membrane-forearm-left",
+   "bp3d": [
+    "FJ1476M"
+   ]
+  },
+  {
+   "id": "cricoid-cartilage",
+   "bp3d": [
+    "FJ2440"
+   ]
+  },
+  {
+   "id": "major-alar-cartilage-right",
+   "bp3d": [
+    "FJ2554"
+   ]
+  },
+  {
+   "id": "major-alar-cartilage-left",
+   "bp3d": [
+    "FJ2555"
+   ]
+  },
+  {
+   "id": "stylohyoid-ligament-left",
+   "bp3d": [
+    "FJ2763"
+   ]
+  },
+  {
+   "id": "stylohyoid-ligament-right",
+   "bp3d": [
+    "FJ2764"
+   ]
+  },
+  {
+   "id": "hyoid",
+   "bp3d": [
+    "FJ2772"
+   ]
+  },
+  {
+   "id": "cuneiform-cartilage-left",
+   "bp3d": [
+    "FJ2773"
+   ]
+  },
+  {
+   "id": "arytenoid-cartilage-left",
+   "bp3d": [
+    "FJ2775"
+   ]
+  },
+  {
+   "id": "corniculate-cartilage-left",
+   "bp3d": [
+    "FJ2776"
+   ]
+  },
+  {
+   "id": "arytenoid-cartilage-right",
+   "bp3d": [
+    "FJ2792"
+   ]
+  },
+  {
+   "id": "corniculate-cartilage-right",
+   "bp3d": [
+    "FJ2793"
+   ]
+  },
+  {
+   "id": "cuneiform-cartilage-right",
+   "bp3d": [
+    "FJ2795"
+   ]
+  },
+  {
+   "id": "thyroid-cartilage",
+   "bp3d": [
+    "FJ2808"
+   ]
+  },
+  {
+   "id": "hip-bone-right",
+   "bp3d": [
+    "FJ3152"
+   ]
+  },
+  {
+   "id": "xiphoid",
+   "bp3d": [
+    "FJ3153"
+   ]
+  },
+  {
+   "id": "t10",
+   "bp3d": [
+    "FJ3154"
+   ]
+  },
+  {
+   "id": "t11",
+   "bp3d": [
+    "FJ3155"
+   ]
+  },
+  {
+   "id": "t12",
+   "bp3d": [
+    "FJ3156"
+   ]
+  },
+  {
+   "id": "l1",
+   "bp3d": [
+    "FJ3157"
+   ]
+  },
+  {
+   "id": "t1",
+   "bp3d": [
+    "FJ3158"
+   ]
+  },
+  {
+   "id": "l2",
+   "bp3d": [
+    "FJ3159"
+   ]
+  },
+  {
+   "id": "t2",
+   "bp3d": [
+    "FJ3160"
+   ]
+  },
+  {
+   "id": "c3",
+   "bp3d": [
+    "FJ3161"
+   ]
+  },
+  {
+   "id": "l3",
+   "bp3d": [
+    "FJ3162"
+   ]
+  },
+  {
+   "id": "t3",
+   "bp3d": [
+    "FJ3163"
+   ]
+  },
+  {
+   "id": "c4",
+   "bp3d": [
+    "FJ3164"
+   ]
+  },
+  {
+   "id": "l4",
+   "bp3d": [
+    "FJ3165"
+   ]
+  },
+  {
+   "id": "t4",
+   "bp3d": [
+    "FJ3166"
+   ]
+  },
+  {
+   "id": "c5",
+   "bp3d": [
+    "FJ3167"
+   ]
+  },
+  {
+   "id": "l5",
+   "bp3d": [
+    "FJ3168"
+   ]
+  },
+  {
+   "id": "t5",
+   "bp3d": [
+    "FJ3169"
+   ]
+  },
+  {
+   "id": "c6",
+   "bp3d": [
+    "FJ3170"
+   ]
+  },
+  {
+   "id": "t6",
+   "bp3d": [
+    "FJ3171"
+   ]
+  },
+  {
+   "id": "c7",
+   "bp3d": [
+    "FJ3172"
+   ]
+  },
+  {
+   "id": "t7",
+   "bp3d": [
+    "FJ3173"
+   ]
+  },
+  {
+   "id": "t8",
+   "bp3d": [
+    "FJ3174"
+   ]
+  },
+  {
+   "id": "t9",
+   "bp3d": [
+    "FJ3175"
+   ]
+  },
+  {
+   "id": "c1",
+   "bp3d": [
+    "FJ3176"
+   ]
+  },
+  {
+   "id": "c2",
+   "bp3d": [
+    "FJ3177"
+   ]
+  },
+  {
+   "id": "sternal-body",
+   "bp3d": [
+    "FJ3178"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-2-left",
+   "bp3d": [
+    "FJ3179"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-3-left",
+   "bp3d": [
+    "FJ3180"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-4-left",
+   "bp3d": [
+    "FJ3181"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-1-left",
+   "bp3d": [
+    "FJ3182"
+   ]
+  },
+  {
+   "id": "distal-phalanx-index-left",
+   "bp3d": [
+    "FJ3183"
+   ]
+  },
+  {
+   "id": "distal-phalanx-little-left",
+   "bp3d": [
+    "FJ3184"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-5-left",
+   "bp3d": [
+    "FJ3185"
+   ]
+  },
+  {
+   "id": "distal-phalanx-middle-left",
+   "bp3d": [
+    "FJ3186"
+   ]
+  },
+  {
+   "id": "distal-phalanx-ring-left",
+   "bp3d": [
+    "FJ3187"
+   ]
+  },
+  {
+   "id": "distal-phalanx-thumb-left",
+   "bp3d": [
+    "FJ3188"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-2-right",
+   "bp3d": [
+    "FJ3189"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-3-right",
+   "bp3d": [
+    "FJ3190"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-4-right",
+   "bp3d": [
+    "FJ3191"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-1-right",
+   "bp3d": [
+    "FJ3192"
+   ]
+  },
+  {
+   "id": "distal-phalanx-index-right",
+   "bp3d": [
+    "FJ3193"
+   ]
+  },
+  {
+   "id": "distal-phalanx-little-right",
+   "bp3d": [
+    "FJ3194"
+   ]
+  },
+  {
+   "id": "distal-phalanx-toe-5-right",
+   "bp3d": [
+    "FJ3195"
+   ]
+  },
+  {
+   "id": "distal-phalanx-middle-right",
+   "bp3d": [
+    "FJ3196"
+   ]
+  },
+  {
+   "id": "distal-phalanx-ring-right",
+   "bp3d": [
+    "FJ3197"
+   ]
+  },
+  {
+   "id": "distal-phalanx-thumb-right",
+   "bp3d": [
+    "FJ3198"
+   ]
+  },
+  {
+   "id": "ethmoid",
+   "bp3d": [
+    "FJ3199"
+   ]
+  },
+  {
+   "id": "frontal",
+   "bp3d": [
+    "FJ3200"
+   ]
+  },
+  {
+   "id": "disc-c2",
+   "bp3d": [
+    "FJ3202"
+   ]
+  },
+  {
+   "id": "disc-t4",
+   "bp3d": [
+    "FJ3203"
+   ]
+  },
+  {
+   "id": "disc-t5",
+   "bp3d": [
+    "FJ3204"
+   ]
+  },
+  {
+   "id": "disc-t6",
+   "bp3d": [
+    "FJ3205"
+   ]
+  },
+  {
+   "id": "disc-t7",
+   "bp3d": [
+    "FJ3206"
+   ]
+  },
+  {
+   "id": "disc-t8",
+   "bp3d": [
+    "FJ3207"
+   ]
+  },
+  {
+   "id": "disc-t9",
+   "bp3d": [
+    "FJ3208"
+   ]
+  },
+  {
+   "id": "disc-t10",
+   "bp3d": [
+    "FJ3209"
+   ]
+  },
+  {
+   "id": "disc-t11",
+   "bp3d": [
+    "FJ3210"
+   ]
+  },
+  {
+   "id": "disc-t12",
+   "bp3d": [
+    "FJ3211"
+   ]
+  },
+  {
+   "id": "disc-l1",
+   "bp3d": [
+    "FJ3212"
+   ]
+  },
+  {
+   "id": "disc-c3",
+   "bp3d": [
+    "FJ3213"
+   ]
+  },
+  {
+   "id": "disc-l2",
+   "bp3d": [
+    "FJ3214"
+   ]
+  },
+  {
+   "id": "disc-l3",
+   "bp3d": [
+    "FJ3215"
+   ]
+  },
+  {
+   "id": "disc-l4",
+   "bp3d": [
+    "FJ3216"
+   ]
+  },
+  {
+   "id": "disc-l5",
+   "bp3d": [
+    "FJ3217"
+   ]
+  },
+  {
+   "id": "disc-c4",
+   "bp3d": [
+    "FJ3218"
+   ]
+  },
+  {
+   "id": "disc-c5",
+   "bp3d": [
+    "FJ3219"
+   ]
+  },
+  {
+   "id": "disc-c6",
+   "bp3d": [
+    "FJ3220"
+   ]
+  },
+  {
+   "id": "disc-c7",
+   "bp3d": [
+    "FJ3221"
+   ]
+  },
+  {
+   "id": "disc-t1",
+   "bp3d": [
+    "FJ3222"
+   ]
+  },
+  {
+   "id": "disc-t2",
+   "bp3d": [
+    "FJ3223"
+   ]
+  },
+  {
+   "id": "disc-t3",
+   "bp3d": [
+    "FJ3224"
+   ]
+  },
+  {
+   "id": "rib-10-left",
+   "bp3d": [
+    "FJ3225"
+   ]
+  },
+  {
+   "id": "rib-11-left",
+   "bp3d": [
+    "FJ3226"
+   ]
+  },
+  {
+   "id": "rib-12-left",
+   "bp3d": [
+    "FJ3227"
+   ]
+  },
+  {
+   "id": "rib-1-left",
+   "bp3d": [
+    "FJ3228"
+   ]
+  },
+  {
+   "id": "rib-2-left",
+   "bp3d": [
+    "FJ3229"
+   ]
+  },
+  {
+   "id": "rib-3-left",
+   "bp3d": [
+    "FJ3230"
+   ]
+  },
+  {
+   "id": "rib-4-left",
+   "bp3d": [
+    "FJ3231"
+   ]
+  },
+  {
+   "id": "rib-5-left",
+   "bp3d": [
+    "FJ3232"
+   ]
+  },
+  {
+   "id": "rib-6-left",
+   "bp3d": [
+    "FJ3233"
+   ]
+  },
+  {
+   "id": "rib-7-left",
+   "bp3d": [
+    "FJ3234"
+   ]
+  },
+  {
+   "id": "rib-8-left",
+   "bp3d": [
+    "FJ3235"
+   ]
+  },
+  {
+   "id": "rib-9-left",
+   "bp3d": [
+    "FJ3236"
+   ]
+  },
+  {
+   "id": "clavicle-left",
+   "bp3d": [
+    "FJ3237"
+   ]
+  },
+  {
+   "id": "costal-cartilage-1-left",
+   "bp3d": [
+    "FJ3239"
+   ]
+  },
+  {
+   "id": "metacarpal-1-left",
+   "bp3d": [
+    "FJ3240"
+   ]
+  },
+  {
+   "id": "metatarsal-1-left",
+   "bp3d": [
+    "FJ3241"
+   ]
+  },
+  {
+   "id": "costal-cartilage-2-left",
+   "bp3d": [
+    "FJ3242"
+   ]
+  },
+  {
+   "id": "metacarpal-2-left",
+   "bp3d": [
+    "FJ3243"
+   ]
+  },
+  {
+   "id": "metatarsal-2-left",
+   "bp3d": [
+    "FJ3244"
+   ]
+  },
+  {
+   "id": "costal-cartilage-3-left",
+   "bp3d": [
+    "FJ3245"
+   ]
+  },
+  {
+   "id": "metacarpal-3-left",
+   "bp3d": [
+    "FJ3246"
+   ]
+  },
+  {
+   "id": "metatarsal-3-left",
+   "bp3d": [
+    "FJ3247"
+   ]
+  },
+  {
+   "id": "costal-cartilage-4-left",
+   "bp3d": [
+    "FJ3248"
+   ]
+  },
+  {
+   "id": "metacarpal-4-left",
+   "bp3d": [
+    "FJ3249"
+   ]
+  },
+  {
+   "id": "metatarsal-4-left",
+   "bp3d": [
+    "FJ3250"
+   ]
+  },
+  {
+   "id": "costal-cartilage-5-left",
+   "bp3d": [
+    "FJ3251"
+   ]
+  },
+  {
+   "id": "metacarpal-5-left",
+   "bp3d": [
+    "FJ3252"
+   ]
+  },
+  {
+   "id": "metatarsal-5-left",
+   "bp3d": [
+    "FJ3253"
+   ]
+  },
+  {
+   "id": "costal-cartilage-6-left",
+   "bp3d": [
+    "FJ3254"
+   ]
+  },
+  {
+   "id": "costal-cartilage-7-left",
+   "bp3d": [
+    "FJ3255"
+   ]
+  },
+  {
+   "id": "calcaneus-left",
+   "bp3d": [
+    "FJ3256"
+   ]
+  },
+  {
+   "id": "capitate-left",
+   "bp3d": [
+    "FJ3257"
+   ]
+  },
+  {
+   "id": "cuboid-left",
+   "bp3d": [
+    "FJ3258"
+   ]
+  },
+  {
+   "id": "femur-left",
+   "bp3d": [
+    "FJ3259"
+   ]
+  },
+  {
+   "id": "fibula-left",
+   "bp3d": [
+    "FJ3260"
+   ]
+  },
+  {
+   "id": "hamate-left",
+   "bp3d": [
+    "FJ3261"
+   ]
+  },
+  {
+   "id": "humerus-left",
+   "bp3d": [
+    "FJ3262"
+   ]
+  },
+  {
+   "id": "intermediate-cuneiform-left",
+   "bp3d": [
+    "FJ3264"
+   ]
+  },
+  {
+   "id": "lacrimal-left",
+   "bp3d": [
+    "FJ3265"
+   ]
+  },
+  {
+   "id": "sesamoids-foot-left",
+   "bp3d": [
+    "FJ3266",
+    "FJ3270"
+   ]
+  },
+  {
+   "id": "lateral-cuneiform-left",
+   "bp3d": [
+    "FJ3267"
+   ]
+  },
+  {
+   "id": "lunate-left",
+   "bp3d": [
+    "FJ3268"
+   ]
+  },
+  {
+   "id": "maxilla-left",
+   "bp3d": [
+    "FJ3269"
+   ]
+  },
+  {
+   "id": "medial-cuneiform-left",
+   "bp3d": [
+    "FJ3271"
+   ]
+  },
+  {
+   "id": "nasal-left",
+   "bp3d": [
+    "FJ3272"
+   ]
+  },
+  {
+   "id": "palatine-left",
+   "bp3d": [
+    "FJ3273"
+   ]
+  },
+  {
+   "id": "parietal-left",
+   "bp3d": [
+    "FJ3274"
+   ]
+  },
+  {
+   "id": "patella-left",
+   "bp3d": [
+    "FJ3275"
+   ]
+  },
+  {
+   "id": "pisiform-left",
+   "bp3d": [
+    "FJ3276"
+   ]
+  },
+  {
+   "id": "radius-left",
+   "bp3d": [
+    "FJ3277"
+   ]
+  },
+  {
+   "id": "scaphoid-left",
+   "bp3d": [
+    "FJ3278"
+   ]
+  },
+  {
+   "id": "scapula-left",
+   "bp3d": [
+    "FJ3279"
+   ]
+  },
+  {
+   "id": "talus-left",
+   "bp3d": [
+    "FJ3280"
+   ]
+  },
+  {
+   "id": "temporal-left",
+   "bp3d": [
+    "FJ3281"
+   ]
+  },
+  {
+   "id": "tibia-left",
+   "bp3d": [
+    "FJ3282"
+   ]
+  },
+  {
+   "id": "trapezium-left",
+   "bp3d": [
+    "FJ3283"
+   ]
+  },
+  {
+   "id": "trapezoid-left",
+   "bp3d": [
+    "FJ3284"
+   ]
+  },
+  {
+   "id": "triquetral-left",
+   "bp3d": [
+    "FJ3285"
+   ]
+  },
+  {
+   "id": "ulna-left",
+   "bp3d": [
+    "FJ3286"
+   ]
+  },
+  {
+   "id": "zygomatic-left",
+   "bp3d": [
+    "FJ3287"
+   ]
+  },
+  {
+   "id": "hip-bone-left",
+   "bp3d": [
+    "FJ3288"
+   ]
+  },
+  {
+   "id": "mandible",
+   "bp3d": [
+    "FJ3289"
+   ]
+  },
+  {
+   "id": "manubrium",
+   "bp3d": [
+    "FJ3290"
+   ]
+  },
+  {
+   "id": "middle-phalanx-ring-left",
+   "bp3d": [
+    "FJ3291"
+   ]
+  },
+  {
+   "id": "middle-phalanx-ring-right",
+   "bp3d": [
+    "FJ3292"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-2-left",
+   "bp3d": [
+    "FJ3293"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-3-left",
+   "bp3d": [
+    "FJ3294"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-4-left",
+   "bp3d": [
+    "FJ3295"
+   ]
+  },
+  {
+   "id": "middle-phalanx-index-left",
+   "bp3d": [
+    "FJ3296"
+   ]
+  },
+  {
+   "id": "middle-phalanx-little-left",
+   "bp3d": [
+    "FJ3297"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-5-left",
+   "bp3d": [
+    "FJ3298"
+   ]
+  },
+  {
+   "id": "middle-phalanx-middle-left",
+   "bp3d": [
+    "FJ3299"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-2-right",
+   "bp3d": [
+    "FJ3300"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-3-right",
+   "bp3d": [
+    "FJ3301"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-4-right",
+   "bp3d": [
+    "FJ3302"
+   ]
+  },
+  {
+   "id": "middle-phalanx-index-right",
+   "bp3d": [
+    "FJ3303"
+   ]
+  },
+  {
+   "id": "middle-phalanx-little-right",
+   "bp3d": [
+    "FJ3304"
+   ]
+  },
+  {
+   "id": "middle-phalanx-toe-5-right",
+   "bp3d": [
+    "FJ3305"
+   ]
+  },
+  {
+   "id": "middle-phalanx-middle-right",
+   "bp3d": [
+    "FJ3306"
+   ]
+  },
+  {
+   "id": "navicular-left",
+   "bp3d": [
+    "FJ3307"
+   ]
+  },
+  {
+   "id": "navicular-right",
+   "bp3d": [
+    "FJ3308"
+   ]
+  },
+  {
+   "id": "occipital",
+   "bp3d": [
+    "FJ3309"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-1-right",
+   "bp3d": [
+    "FJ3310"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-3-left",
+   "bp3d": [
+    "FJ3311"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-4-left",
+   "bp3d": [
+    "FJ3312"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-index-left",
+   "bp3d": [
+    "FJ3313"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-little-left",
+   "bp3d": [
+    "FJ3314"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-5-left",
+   "bp3d": [
+    "FJ3315"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-middle-left",
+   "bp3d": [
+    "FJ3316"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-ring-left",
+   "bp3d": [
+    "FJ3317"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-thumb-left",
+   "bp3d": [
+    "FJ3318"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-2-right",
+   "bp3d": [
+    "FJ3319"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-3-right",
+   "bp3d": [
+    "FJ3320"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-4-right",
+   "bp3d": [
+    "FJ3321"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-index-right",
+   "bp3d": [
+    "FJ3322"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-little-right",
+   "bp3d": [
+    "FJ3323"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-5-right",
+   "bp3d": [
+    "FJ3324"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-middle-right",
+   "bp3d": [
+    "FJ3325"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-ring-right",
+   "bp3d": [
+    "FJ3326"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-thumb-right",
+   "bp3d": [
+    "FJ3327"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-2-left",
+   "bp3d": [
+    "FJ3328"
+   ]
+  },
+  {
+   "id": "proximal-phalanx-toe-1-left",
+   "bp3d": [
+    "FJ3329"
+   ]
+  },
+  {
+   "id": "rib-10-right",
+   "bp3d": [
+    "FJ3330"
+   ]
+  },
+  {
+   "id": "rib-11-right",
+   "bp3d": [
+    "FJ3331"
+   ]
+  },
+  {
+   "id": "rib-12-right",
+   "bp3d": [
+    "FJ3332"
+   ]
+  },
+  {
+   "id": "costal-cartilage-1-right",
+   "bp3d": [
+    "FJ3333"
+   ]
+  },
+  {
+   "id": "rib-1-right",
+   "bp3d": [
+    "FJ3334"
+   ]
+  },
+  {
+   "id": "costal-cartilage-2-right",
+   "bp3d": [
+    "FJ3335"
+   ]
+  },
+  {
+   "id": "rib-2-right",
+   "bp3d": [
+    "FJ3336"
+   ]
+  },
+  {
+   "id": "costal-cartilage-3-right",
+   "bp3d": [
+    "FJ3337"
+   ]
+  },
+  {
+   "id": "rib-3-right",
+   "bp3d": [
+    "FJ3338"
+   ]
+  },
+  {
+   "id": "costal-cartilage-4-right",
+   "bp3d": [
+    "FJ3339"
+   ]
+  },
+  {
+   "id": "rib-4-right",
+   "bp3d": [
+    "FJ3340"
+   ]
+  },
+  {
+   "id": "costal-cartilage-5-right",
+   "bp3d": [
+    "FJ3341"
+   ]
+  },
+  {
+   "id": "rib-5-right",
+   "bp3d": [
+    "FJ3342"
+   ]
+  },
+  {
+   "id": "costal-cartilage-6-right",
+   "bp3d": [
+    "FJ3343"
+   ]
+  },
+  {
+   "id": "rib-6-right",
+   "bp3d": [
+    "FJ3344"
+   ]
+  },
+  {
+   "id": "costal-cartilage-7-right",
+   "bp3d": [
+    "FJ3345"
+   ]
+  },
+  {
+   "id": "rib-7-right",
+   "bp3d": [
+    "FJ3346"
+   ]
+  },
+  {
+   "id": "rib-8-right",
+   "bp3d": [
+    "FJ3347"
+   ]
+  },
+  {
+   "id": "rib-9-right",
+   "bp3d": [
+    "FJ3348"
+   ]
+  },
+  {
+   "id": "radius-right",
+   "bp3d": [
+    "FJ3349"
+   ]
+  },
+  {
+   "id": "metacarpal-1-right",
+   "bp3d": [
+    "FJ3350"
+   ]
+  },
+  {
+   "id": "metatarsal-1-right",
+   "bp3d": [
+    "FJ3351"
+   ]
+  },
+  {
+   "id": "metacarpal-2-right",
+   "bp3d": [
+    "FJ3352"
+   ]
+  },
+  {
+   "id": "metatarsal-2-right",
+   "bp3d": [
+    "FJ3353"
+   ]
+  },
+  {
+   "id": "metacarpal-3-right",
+   "bp3d": [
+    "FJ3354"
+   ]
+  },
+  {
+   "id": "metatarsal-3-right",
+   "bp3d": [
+    "FJ3355"
+   ]
+  },
+  {
+   "id": "metacarpal-4-right",
+   "bp3d": [
+    "FJ3356"
+   ]
+  },
+  {
+   "id": "metatarsal-4-right",
+   "bp3d": [
+    "FJ3357"
+   ]
+  },
+  {
+   "id": "metacarpal-5-right",
+   "bp3d": [
+    "FJ3358"
+   ]
+  },
+  {
+   "id": "metatarsal-5-right",
+   "bp3d": [
+    "FJ3359"
+   ]
+  },
+  {
+   "id": "calcaneus-right",
+   "bp3d": [
+    "FJ3360"
+   ]
+  },
+  {
+   "id": "capitate-right",
+   "bp3d": [
+    "FJ3361"
+   ]
+  },
+  {
+   "id": "clavicle-right",
+   "bp3d": [
+    "FJ3362"
+   ]
+  },
+  {
+   "id": "cuboid-right",
+   "bp3d": [
+    "FJ3364"
+   ]
+  },
+  {
+   "id": "femur-right",
+   "bp3d": [
+    "FJ3365"
+   ]
+  },
+  {
+   "id": "fibula-right",
+   "bp3d": [
+    "FJ3366"
+   ]
+  },
+  {
+   "id": "hamate-right",
+   "bp3d": [
+    "FJ3367"
+   ]
+  },
+  {
+   "id": "humerus-right",
+   "bp3d": [
+    "FJ3368"
+   ]
+  },
+  {
+   "id": "intermediate-cuneiform-right",
+   "bp3d": [
+    "FJ3370"
+   ]
+  },
+  {
+   "id": "lacrimal-right",
+   "bp3d": [
+    "FJ3371"
+   ]
+  },
+  {
+   "id": "sesamoids-foot-right",
+   "bp3d": [
+    "FJ3372",
+    "FJ3376"
+   ]
+  },
+  {
+   "id": "lateral-cuneiform-right",
+   "bp3d": [
+    "FJ3373"
+   ]
+  },
+  {
+   "id": "lunate-right",
+   "bp3d": [
+    "FJ3374"
+   ]
+  },
+  {
+   "id": "maxilla-right",
+   "bp3d": [
+    "FJ3375"
+   ]
+  },
+  {
+   "id": "medial-cuneiform-right",
+   "bp3d": [
+    "FJ3377"
+   ]
+  },
+  {
+   "id": "nasal-right",
+   "bp3d": [
+    "FJ3378"
+   ]
+  },
+  {
+   "id": "palatine-right",
+   "bp3d": [
+    "FJ3379"
+   ]
+  },
+  {
+   "id": "parietal-right",
+   "bp3d": [
+    "FJ3380"
+   ]
+  },
+  {
+   "id": "patella-right",
+   "bp3d": [
+    "FJ3381"
+   ]
+  },
+  {
+   "id": "pisiform-right",
+   "bp3d": [
+    "FJ3382"
+   ]
+  },
+  {
+   "id": "scaphoid-right",
+   "bp3d": [
+    "FJ3383"
+   ]
+  },
+  {
+   "id": "scapula-right",
+   "bp3d": [
+    "FJ3384"
+   ]
+  },
+  {
+   "id": "talus-right",
+   "bp3d": [
+    "FJ3385"
+   ]
+  },
+  {
+   "id": "temporal-right",
+   "bp3d": [
+    "FJ3386"
+   ]
+  },
+  {
+   "id": "tibia-right",
+   "bp3d": [
+    "FJ3387"
+   ]
+  },
+  {
+   "id": "trapezium-right",
+   "bp3d": [
+    "FJ3388"
+   ]
+  },
+  {
+   "id": "trapezoid-right",
+   "bp3d": [
+    "FJ3389"
+   ]
+  },
+  {
+   "id": "triquetral-right",
+   "bp3d": [
+    "FJ3390"
+   ]
+  },
+  {
+   "id": "ulna-right",
+   "bp3d": [
+    "FJ3391"
+   ]
+  },
+  {
+   "id": "zygomatic-right",
+   "bp3d": [
+    "FJ3392"
+   ]
+  },
+  {
+   "id": "sacrum",
+   "bp3d": [
+    "FJ3393"
+   ]
+  },
+  {
+   "id": "sphenoid",
+   "bp3d": [
+    "FJ3394"
+   ]
+  },
+  {
+   "id": "vomer",
+   "bp3d": [
+    "FJ3395"
+   ]
+  },
+  {
+   "id": "coccyx",
+   "united": [
+    "VH_F_coccyx"
+   ],
+   "fit": "pelvis"
+  },
+  {
+   "id": "acl-left",
+   "united": [
+    "VH_F_anterior_cruciate_ligament_of_knee_L"
+   ],
+   "fit": "knee-left"
+  },
+  {
+   "id": "pcl-left",
+   "united": [
+    "VH_F_posterior_cruciate_ligament_of_knee_L"
+   ],
+   "fit": "knee-left"
+  },
+  {
+   "id": "menisci-left",
+   "united": [
+    "VH_F_meniscus_L"
+   ],
+   "fit": "knee-left"
+  },
+  {
+   "id": "anterolateral-ligament-left",
+   "united": [
+    "VH_F_anterolateral_ligament_of_knee_L"
+   ],
+   "fit": "knee-left"
+  },
+  {
+   "id": "acl-right",
+   "united": [
+    "VH_F_anterior_cruciate_ligament_of_knee_R"
+   ],
+   "fit": "knee-right"
+  },
+  {
+   "id": "pcl-right",
+   "united": [
+    "VH_F_posterior_cruciate_ligament_of_knee_R"
+   ],
+   "fit": "knee-right"
+  },
+  {
+   "id": "menisci-right",
+   "united": [
+    "VH_F_meniscus_R"
+   ],
+   "fit": "knee-right"
+  },
+  {
+   "id": "anterolateral-ligament-right",
+   "united": [
+    "VH_F_anterolateral_ligament_of_knee_R"
+   ],
+   "fit": "knee-right"
+  },
+  {
+   "id": "female-sacrum",
+   "united": [
+    "VH_F_sacrum"
+   ],
+   "fit": "pelvis-rigid"
+  },
+  {
+   "id": "female-coccyx",
+   "united": [
+    "VH_F_coccyx"
+   ],
+   "fit": "pelvis-rigid"
+  },
+  {
+   "id": "female-hip-bone-left",
+   "united": [
+    "VH_F_ilium_compact_bone_L",
+    "VH_F_ischium_compact_bone_L",
+    "VH_F_pubis_compact_bone_L"
+   ],
+   "fit": "pelvis-rigid"
+  },
+  {
+   "id": "female-spongy-bone-left",
+   "united": [
+    "VH_F_ilium_spongy_bone_L",
+    "VH_F_ischium_spongy_bone_L",
+    "VH_F_pubis_spongy_bone_L"
+   ],
+   "fit": "pelvis-rigid"
+  },
+  {
+   "id": "female-hip-bone-right",
+   "united": [
+    "VH_F_ilium_compact_bone_R",
+    "VH_F_ischium_compact_bone_R",
+    "VH_F_pubis_compact_bone_R"
+   ],
+   "fit": "pelvis-rigid"
+  },
+  {
+   "id": "female-spongy-bone-right",
+   "united": [
+    "VH_F_ilium_spongy_bone_R",
+    "VH_F_ischium_spongy_bone_R",
+    "VH_F_pubis_spongy_bone_R"
+   ],
+   "fit": "pelvis-rigid"
+  }
+ ],
+ "shadingBake": {
+  "tool": "tools/bake-shading.mjs",
+  "attribute": "_TISSUE (VEC4 unsigned byte, normalised): r ambient occlusion, g mottling noise, b fat proximity, a unused",
+  "settings": {
+   "aoDistance": 0.01,
+   "rays": 48,
+   "rayOffset": 0.00025,
+   "noiseFrequency": 260
+  },
+  "bodies": {
+   "skeleton": {
+    "occluders": {
+     "skull": [
+      "skull",
+      "teeth"
+     ],
+     "teeth": [
+      "teeth",
+      "skull"
+     ],
+     "cartilage": [
+      "cartilage"
+     ],
+     "spine": [
+      "spine",
+      "discs"
+     ],
+     "discs": [
+      "discs",
+      "spine"
+     ],
+     "thorax": [
+      "thorax"
+     ],
+     "girdle": [
+      "girdle"
+     ],
+     "arm": [
+      "arm"
+     ],
+     "hand": [
+      "hand"
+     ],
+     "pelvis": [
+      "pelvis"
+     ],
+     "leg": [
+      "leg",
+      "ligaments"
+     ],
+     "foot": [
+      "foot"
+     ],
+     "ligaments": [
+      "ligaments",
+      "leg"
+     ],
+     "female-pelvis": [
+      "female-pelvis"
+     ]
+    },
+    "unbakedSha256": "3cc20b5afff81f22638ccd433a7326f28c835d0401a6a489250618972c1f1e09",
+    "bakedSha256": "760829effac22f757110fff4f70938db82106c5c643cab9f550c4f242a7ee1a9",
+    "vertices": 224997,
+    "layers": {
+     "teeth": {
+      "meshes": 30,
+      "meanAO": 0.553,
+      "vertices": 16222
+     },
+     "ligaments": {
+      "meshes": 16,
+      "meanAO": 0.877,
+      "vertices": 7804
+     },
+     "cartilage": {
+      "meshes": 10,
+      "meanAO": 0.908,
+      "vertices": 5111
+     },
+     "skull": {
+      "meshes": 21,
+      "meanAO": 0.654,
+      "vertices": 29017
+     },
+     "pelvis": {
+      "meshes": 2,
+      "meanAO": 0.994,
+      "vertices": 1853
+     },
+     "thorax": {
+      "meshes": 41,
+      "meanAO": 0.935,
+      "vertices": 26303
+     },
+     "spine": {
+      "meshes": 26,
+      "meanAO": 0.866,
+      "vertices": 26968
+     },
+     "foot": {
+      "meshes": 54,
+      "meanAO": 0.833,
+      "vertices": 24734
+     },
+     "hand": {
+      "meshes": 54,
+      "meanAO": 0.831,
+      "vertices": 25593
+     },
+     "discs": {
+      "meshes": 23,
+      "meanAO": 0.738,
+      "vertices": 21361
+     },
+     "girdle": {
+      "meshes": 4,
+      "meanAO": 0.991,
+      "vertices": 9268
+     },
+     "leg": {
+      "meshes": 8,
+      "meanAO": 0.924,
+      "vertices": 8520
+     },
+     "arm": {
+      "meshes": 6,
+      "meanAO": 0.942,
+      "vertices": 7536
+     },
+     "female-pelvis": {
+      "meshes": 6,
+      "meanAO": 0.656,
+      "vertices": 14707
+     }
+    }
+   }
+  }
+ }
+}
