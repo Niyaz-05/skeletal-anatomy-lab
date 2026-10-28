@@ -327,7 +327,7 @@ test('the guided tour steps through, jumps and finishes', async ({ page }) => {
   expect(errors).toEqual([]);
 });
 
-test('phone layout: structures open from the dock and details follow a pick', async ({ page }) => {
+test('phone layout: structures open from the dock and details follow a pick @smoke', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await open(page);
   await ready(page);

@@ -2,6 +2,8 @@
 
 **Live:** https://skeletal-anatomy-lab.vercel.app
 
+Works on phones and tablets: the details rise from the bottom in a sheet you can drag, fold or close with a swipe down, and picking a structure frames it above the sheet.
+
 An interactive 3D human skeleton for university anatomy and physiology:
 
 - **Anatomy explorer.** 198 bones of one adult (BodyParts3D), with the costal and laryngeal cartilages, 23 intervertebral discs, 28 teeth and the gums, and from the HuBMAP female body the coccyx and the knee's cruciate ligaments and menisci. Each structure has its features, function and clinical notes, its shape class (long, short, flat, irregular, sesamoid, pneumatic) and how it ossifies. Search with everyday names and abbreviations ("collarbone", "kneecap", "ACL", "C7"); fly to the skull, spine, thorax, hand, pelvis, knee or foot; cut the body in three planes; colour by **Regions** or view it as an **X-ray**.
